@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_checklist"
+        android:title="Check Lists"
+        android:icon="@drawable/ic_checklist" />
+
+
+    <item android:id="@+id/nav_announcement"
+        android:title="Announcements"
+        android:icon="@drawable/ic_announcements" />
+
+
+    <item android:id="@+id/nav_theme"
+        android:title="Theme"
+        android:icon="@drawable/ic_theme" />
+
+    <item android:id="@+id/nav_about"
+        android:title="About Us"
+        android:icon="@drawable/ic_about_us" />
+
+    <item android:id="@+id/nav_about_app"
+        android:title="About App"
+        android:icon="@drawable/ic_about_app" />
+
+
+</menu>
