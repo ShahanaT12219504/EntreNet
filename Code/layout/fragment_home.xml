@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back!"
+            android:textColor="#0F60A6"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:paddingBottom="16dp" />
+
+        <!-- Banner Image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_2"
+            android:background="@drawable/rounded_bg" />
+
+        <!-- Main Welcome Text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:paddingTop="16dp"
+            android:text="Welcome to EntreNet!"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#333" />
+
+        <!-- Connect / Collaborate / Grow Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="CONNECT"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:background="@drawable/black_rounded" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="COLLABORATE"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:background="@drawable/black_rounded" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="GROW"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:background="@drawable/black_rounded" />
+        </LinearLayout>
+
+        <!-- Subtext -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="with fellow entrepreneurs~"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="#555"
+            android:textStyle="italic" />
+
+        <!-- Featured Posts Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Featured Posts"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0F60A6"
+            android:fontFamily="@font/poppins"
+            android:paddingTop="24dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Post 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips for Scaling Your Startup"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:fontFamily="@font/poppins" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jane Doe • 3 hours ago"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/poppins" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What strategies have worked for your startup growth?"
+                android:textSize="16sp"
+                android:paddingTop="4dp"
+                android:fontFamily="@font/poppins" />
+        </LinearLayout>
+
+        <!-- Post 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Networking Strategies for Entrepreneurs"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:fontFamily="@font/poppins" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alex Smith • 5 hours ago"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/poppins" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How do you effectively network in your industry?"
+                android:textSize="16sp"
+                android:paddingTop="4dp"
+                android:fontFamily="@font/poppins" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
